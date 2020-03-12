@@ -1,13 +1,10 @@
 .home {
-
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -56,6 +53,15 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
-    }
-  }
-}// home
+
+      .btn {
+        .custom-btn();
+        border: none;
+
+        &:hover {
+          cursor: pointer;
+        }
+      } // btn ends here
+    } // destination ends here
+  } // content-pick ends here
+} // home
